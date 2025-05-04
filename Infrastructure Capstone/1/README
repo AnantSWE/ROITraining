@@ -1,9 +1,9 @@
 1. Create a directory
 mkdir -p ~/terraform/capstone/1
 
-2. Clone https://github.com/Infrastructure Capstone/capstone.git
+2. Clone https://github.com/AnantSWE/ROITraining.git
 
-3. Switch to cd ~/terraform/Infrastructure Capstone/1 and then execute 
+3. Switch to cd ~/ROITraining/Infrastructure Capstone/1 and then execute 
 
 terraform plan 
 
