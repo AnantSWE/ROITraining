@@ -1,0 +1,16 @@
+1. Create a directory
+mkdir -p ~/terraform/capstone/1
+
+2. Clone https://github.com/Infrastructure Capstone/capstone.git
+
+3. Switch to cd ~/terraform/Infrastructure Capstone/1 and then execute 
+
+terraform plan 
+
+to verify resources related to VPC, public subnet, IG, SG, IAM Role, Policy
+
+4. Then execute 
+
+terraform apply
+
+As an outcome you will see an EC2 instance with public access with Terraform binary installed and necessary admin rights .

@@ -1,0 +1,20 @@
+1. Create a directory
+mkdir ~/static-website
+mkdir ~/static-website/modules
+mkdir ~/static-website/modules/website-bucket
+mkdir ~/static-website/space-invaders-website
+cd ~/static-website/modules/website-bucket
+
+2. Clone https://github.com/Infrastructure Capstone/capstone.git
+
+3. Switch to cd ~/terraform/capstone/create-static-website/space-invaders-website and then execute 
+
+terraform plan 
+
+to verify resources related to S3 modules
+
+4. Then execute 
+
+terraform apply
+
+As an outcome you will see an static website launched from S3 bucket.

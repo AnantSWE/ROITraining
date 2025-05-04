@@ -1,0 +1,16 @@
+1. Create a directory
+mkdir -p ~/terraform/capstone/3
+
+2. Clone https://github.com/Infrastructure Capstone/capstone.git
+
+3. Switch to cd ~/terraform/capstone/3 and then execute
+
+
+3. Run 
+terraform plan
+
+4. Then run
+terraform apply
+
+############## This will satisfy the simple EC2 instance webserver, exposed to internet #####################
+
